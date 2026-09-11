@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Maya Chen is a fresh graduate and product-minded frontend developer." />
+    <title>Maya Chen | Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Maya Chen home"><span>MC</span></a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="mailto:maya.chen@example.com">Let's talk <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero page-section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Available for junior roles</p>
+          <h1>Making digital things feel <em>human.</em></h1>
+          <p class="hero-intro">I'm Maya, a newly graduated frontend developer who turns thoughtful ideas into clear, useful experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">See my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#contact">Request my resume <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+          <div class="portrait-frame">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=85" alt="Portrait of Maya Chen" />
+            <div class="portrait-note">Based in Toronto<br />Working worldwide</div>
+          </div>
+          <div class="orbit-mark" aria-hidden="true">✳</div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Skills">
+        <div class="marquee-track"><span>Frontend development</span><b>✳</b><span>Product thinking</span><b>✳</b><span>Visual design</span><b>✳</b><span>Frontend development</span><b>✳</b><span>Product thinking</span><b>✳</b></div>
+      </section>
+
+      <section id="work" class="page-section work-section">
+        <div class="section-heading reveal"><p class="eyebrow">Selected work / 2024—25</p><h2>A few things I've<br /><em>made along the way.</em></h2></div>
+        <div class="project-grid">
+          <a class="project-card project-card-main reveal" href="#contact">
+            <div class="project-image image-sprout"><div class="app-window"><span></span><span></span><span></span><div class="chart-line"></div></div></div>
+            <div class="project-meta"><div><p class="project-type">01 / Product design + development</p><h3>Sprout Finance</h3></div><span class="round-arrow">↗</span></div>
+            <p class="project-description">A calmer way for first-time investors to understand their money.</p>
+          </a>
+          <a class="project-card project-card-side reveal reveal-delay" href="#contact">
+            <div class="project-image image-archive"><div class="archive-label">ARCHIVE<br /><strong>YOUR<br />IDEAS</strong></div></div>
+            <div class="project-meta"><div><p class="project-type">02 / Web experience</p><h3>Field Notes</h3></div><span class="round-arrow">↗</span></div>
+            <p class="project-description">A tactile digital notebook for curious people and their questions.</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="page-section about-inner">
+          <div class="about-stamp" aria-hidden="true">✳</div>
+          <div class="section-heading reveal"><p class="eyebrow">A little about me</p><h2>Curious by default.<br /><em>Useful on purpose.</em></h2></div>
+          <div class="about-content reveal reveal-delay"><p>I'm at my best where design and code overlap. I care about the small details that make a product easier to understand, and I like working with people who are generous with ideas.</p><p>When I'm away from my editor, you'll find me collecting good packaging, learning to make pasta, or walking until a new thought shows up.</p><div class="skill-list"><span>HTML / CSS</span><span>JavaScript</span><span>React</span><span>Figma</span><span>Accessibility</span></div></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section page-section">
+        <div class="contact-copy reveal"><p class="eyebrow">Have a project in mind?</p><h2>Let's make something<br /><em>worth remembering.</em></h2><a class="email-link" href="mailto:maya.chen@example.com">maya.chen@example.com <span aria-hidden="true">↗</span></a></div>
+        <div class="contact-side reveal reveal-delay"><p>I'm currently looking for a junior frontend or product design role where I can learn quickly, contribute thoughtfully, and ship work that matters.</p><div class="social-links"><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="year"></span> Maya Chen</span><span>Designed + coded with care</span><a href="#top">Back to top ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
