@@ -1,5 +1,5 @@
 # Sasha Ellen Polano Portfolio
 
-A dependency-free portfolio site for a fresh graduate. Open `index.html` directly in a browser.
+A dependency-free portfolio site for Sasha Ellen Polano, a virtual assistant candidate. Open `index.html` directly in a browser.
 
-Replace the sample email, social links, resume path, portrait, and project content with your own details.
+Update the portrait, resume details, and service examples with your own content as needed.
