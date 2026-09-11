@@ -1,4 +1,4 @@
-# Maya Chen Portfolio
+# Sasha Ellen Polano Portfolio
 
 A dependency-free portfolio site for a fresh graduate. Open `index.html` directly in a browser.
 
